@@ -1,0 +1,330 @@
+@font-face{
+    font-family: rbold;
+    src:url('../../../public/font/Roboto-Bold.ttf')
+  }
+  @font-face{
+    font-family: rregular;
+    src:url('../../../public/font/Roboto-Regular.ttf')
+  }
+  @font-face{
+    font-family: rmedium;
+    src:url('../../../public/font/Roboto-Medium.ttf')
+  }
+  @font-face{
+    font-family: msemi;
+    src:url('../../../public/font/Mulish-SemiBold.ttf')
+  }
+.edit-device{
+    width: 191.9rem  ;
+    height: 92.9rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 4fr;
+    }
+    .edit-device-left{
+  /* background-color: blue; */
+  grid-row: 1/2;
+  grid-column: 1/2;
+    }
+    .edit-device-right{
+      /* background-color: blueviolet; */
+      grid-row: 1/2;
+      grid-column: 2/3;
+      border-left: .1rem solid rgb(0,0,0,20%);
+      border-top: .1rem solid rgb(0,0,0,20%);
+      border-top-left-radius: 5rem;
+    } 
+    .edit-device-nav{
+      grid-area: nav;
+       /* background-color: rgb(0, 187, 255);  */
+       width: 100%;
+       height: 12.4rem;
+    }
+    .edit-device-main{
+      grid-area: main;
+      /* background-color: olive; */
+      width: 100%;
+      height: 80.5rem;
+    } 
+    .edit-device-contaner{
+      width: 100%;
+      height: 100%;
+      /* background-color: chartreuse; */
+      background-color: #F7F8FC;
+    }
+
+
+
+
+
+    
+     .edit-device-contaner p{
+        width: 20rem;
+        height: 1.9rem;
+       font-size: 1.6rem;
+       padding-top: 2.5rem;
+       color:#AD0606;
+       font-weight: 700;
+        height: 6%;
+        padding-left: 4rem;
+      }
+ .edit-device-div1{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+ }
+.sub1-edit-device-div1{
+    border :.1rem solid #DFE0EB;
+    height:70rem;
+    width:146.5rem;
+    border-radius: 2rem;
+    background-color: #F3F4F7;
+    /* background-color: rgb(79, 161, 21); */
+    margin-top: 2rem;
+
+    display: flex;
+}
+.left-subsub1-sub1-edit-device-div1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    /* background-color: #F3F4F7; */
+    /* background-color: yellow; */
+    padding-left: 5rem;
+}
+.sub1-left-subsub1-sub1-edit-device-div1{
+display: flex;
+flex-direction: column;
+}
+.sub1-left-subsub1-sub1-edit-device-div1 label{
+    font-size: 1.6rem;
+    font-family: msemi;
+}
+.sub1-left-subsub1-sub1-edit-device-div1 select{
+    width: 45.3rem;
+            height: 4rem;
+            border: .1rem solid #DFE0EB;
+    border-radius: .8rem;
+    outline: none;
+    font-family: msemi;
+    color: #7A7D8B;
+    padding-left: 1rem;
+    font-size: 1.6rem;
+background-color: white;
+}
+/* ///////////////////////// */
+.sub2-left-subsub1-sub1-edit-device-div1{
+    display: flex;
+    flex-direction: column;
+    }
+    .sub2-left-subsub1-sub1-edit-device-div1 label{
+        font-size: 1.6rem;
+        font-family: msemi;
+
+    }
+    .sub2-left-subsub1-sub1-edit-device-div1 input{
+        width: 45.3rem;
+        border: .1rem solid #DFE0EB;
+        font-family: msemi;
+        color: #7A7D8B;
+        padding-left: 1rem;
+        height: 4rem;
+        border-radius: .8rem;
+        outline: none;
+        font-size: 1.6rem;
+        background-color: white;
+
+
+    }
+/* //////////////////////////// */
+.sub3-left-subsub1-sub1-edit-device-div1{
+    display: flex;
+    flex-direction: column;
+    }
+    .sub3-left-subsub1-sub1-edit-device-div1 label{
+        font-size: 1.6rem;
+        font-family: msemi;
+
+    }
+    .sub3-left-subsub1-sub1-edit-device-div1 input{
+        width: 45.3rem;
+        border: .1rem solid #DFE0EB;
+        font-family: msemi;
+        color: #7A7D8B;
+        padding-left: 1rem;
+        height: 4rem;
+        border-radius: .8rem;
+        outline: none;
+        font-size: 1.6rem;
+        background-color: white;
+
+    }
+/* ////////////////////////////// */
+.sub4-left-subsub1-sub1-edit-device-div1{
+    display: flex;
+    flex-direction: column;
+    }
+    .sub4-left-subsub1-sub1-edit-device-div1 label{
+        font-size: 1.6rem;
+        font-family: msemi;
+
+    }
+    .sub4-left-subsub1-sub1-edit-device-div1 select{
+        width: 45.3rem;
+        border: .1rem solid #DFE0EB;
+        outline: none;
+        font-family: msemi;
+        color: #7A7D8B;
+        padding-left: 1rem;
+        height: 4rem;
+        border-radius: .8rem;
+        font-size: 1.6rem;
+        background-color: white;
+
+    }
+/* ?/////////////////// */
+.sub5-left-subsub1-sub1-edit-device-div1{
+    display: flex;
+    flex-direction: column;
+    }
+    .sub5-left-subsub1-sub1-edit-device-div1 label{
+        font-size: 1.6rem;
+        font-family: msemi;
+
+    }
+    .sub5-left-subsub1-sub1-edit-device-div1 select{
+        width: 45.3rem;
+        border: .1rem solid #DFE0EB;
+        outline: none;
+        font-size: 1.6rem;
+        font-family: msemi;
+        color: #7A7D8B;
+        padding-left: 1rem;
+        height: 4rem;
+        border-radius: .8rem;
+        background-color: white;
+
+    }
+/* ////////////////////////// */
+.sub6-left-subsub1-sub1-edit-device-div1{
+    display: flex;
+    flex-direction: column;
+    }
+    .sub6-left-subsub1-sub1-edit-device-div1 label{
+        font-size: 1.6rem;
+        font-family: msemi;
+
+    }
+    .sub6-left-subsub1-sub1-edit-device-div1 select{
+        width: 45.3rem;
+        height: 4rem;
+        border: .1rem solid #DFE0EB;
+        outline: none;
+        font-size: 1.6rem;
+        font-family: msemi;
+        color: #7A7D8B;
+        padding-left: 1rem;
+        border-radius: .8rem;
+        background-color: white;
+
+    }
+/* ////////////////////////// */
+.sub7-left-subsub1-sub1-edit-device-div1{
+    display: flex;
+    flex-direction: column;
+    }
+    .sub7-left-subsub1-sub1-edit-device-div1 label{
+        font-size: 1.6rem;
+        font-family: msemi;
+
+    }
+    .ma{
+padding-left: 1rem;
+
+    }
+   
+/* ////////////////////////// */
+.sub8-left-subsub1-sub1-edit-device-div1{
+    display: flex;
+    flex-direction: column;
+    }
+    .sub8-left-subsub1-sub1-edit-device-div1 label{
+        font-size: 1.6rem;
+        font-family: msemi;
+
+    }
+    .sub8-left-subsub1-sub1-edit-device-div1 select{
+        width: 45.3rem;
+        height: 4rem;
+        border: .1rem solid #DFE0EB;
+        outline: none;
+        font-size: 1.6rem;
+        font-family: msemi;
+        color: #7A7D8B;
+        padding-left: 1rem;
+padding-left: 1rem;
+        border-radius: .8rem;
+        background-color: white;
+
+    }
+
+
+
+
+
+    .right-subsub1-sub1-edit-device-div1{
+        width: 60%;
+        height: 100%;
+        padding-left: 19rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        /* background-color: #3255bd; */
+       
+
+    }
+    
+/* ///////////////////////////// */
+    .sub3-right-subsub1-sub1-edit-device-div1 img{
+        width: 23.1rem;
+        height: 20.3rem;
+    }
+/* ////////////////////////// */
+
+    .sub4-right-subsub1-sub1-edit-device-div1 :nth-child(1){
+        width: 24rem;
+        height: 18.7rem;
+    }
+   /*  */
+/* /////////////////////////// */
+.sub5-right-subsub1-sub1-edit-device-div1 button{
+    width: 45.5rem;
+    height: 4rem;
+    background-color: #AD0606;
+    color:white;
+    font-size: 1.6rem;
+    border-radius: 5rem;
+    border: 0;
+    margin-left: -9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+    

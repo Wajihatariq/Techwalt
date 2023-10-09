@@ -1,0 +1,442 @@
+
+@font-face{
+  font-family: rbold;
+  src:url('../../../public/font/Roboto-Bold.ttf')
+}
+@font-face{
+  font-family: rregular;
+  src:url('../../../public/font/Roboto-Regular.ttf')
+}
+@font-face{
+  font-family: rmedium;
+  src:url('../../../public/font/Roboto-Medium.ttf')
+}
+.command-setting{
+  width: 191.9rem  ;
+  height: 92.9rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 4fr;
+    }
+    .command-setting-left{
+  /* background-color: blue; */
+  grid-row: 1/2;
+  grid-column: 1/2;
+    }
+    .command-setting-right{
+      /* background-color: #F7F8FC; */
+      /* background-color: blueviolet; */
+      grid-row: 1/2;
+      grid-column: 2/3;
+      border-left: .1rem solid rgb(0,0,0,20%);
+      border-top: .1rem solid rgb(0,0,0,20%);
+      border-top-left-radius: 5rem;
+    } 
+    .command-setting-nav{
+      grid-area: nav;
+       /* background-color: rgb(0, 187, 255);  */
+       width: 100%;
+       height: 12.4rem;
+    }
+    .command-setting-main{
+      grid-area: main; 
+       width: 100%;
+      height: 80.5rem;
+      border-top-left-radius: 5rem;
+      /* background-color: olive; */
+    } 
+    .command-setting-contaner{
+      width: 100%;
+      height: 100%;
+            background-color: #F7F8FC;
+
+      /* background-color: chartreuse; */
+    }
+/* ///////////////////////// */
+.command-setting-div1{
+    /* background-color: rgb(119, 0, 255); */
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.sub1-command-setting-div1{
+    width: 26.6rem;
+    height: 2.4rem;
+    background-color: #D01400;
+    border: .1rem solid white;
+    box-shadow: -0.2rem 0.2rem 0.2rem grey;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+.sub1-command-setting-div1 p{
+    width: 12.1rem;
+    height: 1.2rem; 
+    font-size: 1.2rem;
+    color: white;
+    padding-top: .2rem;
+}
+/* ///////////////////////////////////////////// */
+.command-setting-div2{
+    /* background-color: rgb(229, 255, 0); */
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.sub1-command-setting-div2{
+    background-color: #364153;
+    width: 20.4rem;
+    height: 8rem;
+    border: .1rem solid white;
+    box-shadow: -0.3rem 0.3rem 0.3rem grey;
+    border-radius: .5rem;
+    margin-left: 1rem;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+padding-left: 1rem;
+
+}
+.sub1-command-setting-div2 :nth-child(1){
+    width: 7.5rem;
+    height: 1.5rem;
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 1rem;
+    font-family: rbold;
+}
+.sub1-command-setting-div2 :nth-child(2){
+    width: 15.5rem;
+    height: 1.4rem;
+    font-size: 1.3rem;
+    color: white;
+    font-family: rmedium;
+    /* background-color: aqua; */
+}
+.sub1-command-setting-div2 :nth-child(3){
+    width: 14.5rem;
+    height: 1.4rem;
+    font-size: 1.3rem;
+    color: white;
+    font-family: rmedium;
+
+    /* background-color: rgb(67, 119, 119); */
+
+}
+.sub2-command-setting-div2{
+    display: flex;
+    margin-left: 2rem;
+}
+.subsub1-sub2-command-setting-div2{
+    width: 11.6rem;
+    height: 2.4rem;
+    background-color: white;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    padding-top: .2rem;
+    margin-right: 1rem;
+    box-shadow: -0.2rem 0.2rem 0.5rem grey;
+     cursor: pointer;
+}
+.subsub1-sub2-command-setting-div2 p{
+    width: 7.5rem;
+    height: 1.4rem;
+    color: #005EEC;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: rmedium;
+
+}
+.subsub2-sub2-command-setting-div2{
+    width: 11.6rem;
+    height: 2.4rem;
+    background-color: white;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    padding-top: .2rem;
+    margin-right: 1rem;
+    box-shadow: -0.2rem 0.2rem 0.5rem grey;
+    cursor: pointer;
+
+
+}
+.subsub2-sub2-command-setting-div2 p{
+    width: 100%;
+    height: 1.4rem;
+    color: #005EEC;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: rmedium;
+
+}
+.subsub3-sub2-command-setting-div2{
+    width: 11.6rem;
+    height: 2.4rem;
+    background-color: white;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    padding-top: .2rem;
+    margin-right: 1rem;
+    box-shadow: -0.2rem 0.2rem 0.5rem grey;
+    cursor: pointer;
+
+
+}
+.subsub3-sub2-command-setting-div2 p{
+    width: 6.7rem;
+    height: 1.4rem;
+    color: #005EEC;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: rmedium;
+
+}
+.subsub4-sub2-command-setting-div2{
+    width: 11.6rem;
+    height: 2.4rem;
+    background-color: white;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    padding-top: .2rem;
+    margin-right: 1rem;
+    box-shadow: -0.2rem 0.2rem 0.5rem grey;
+    cursor: pointer;
+
+}
+.subsub4-sub2-command-setting-div2 p{
+    width: 7.3rem;
+    height: 1.4rem;
+    color: #005EEC;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: rmedium;
+
+}
+.subsub5-sub2-command-setting-div2{
+    width: 11.6rem;
+    height: 2.4rem;
+    background-color: white;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    padding-top: .2rem;
+    margin-right: 1rem;
+    box-shadow: -0.2rem 0.2rem 0.5rem grey;
+    cursor: pointer;
+
+}
+.subsub5-sub2-command-setting-div2 p{
+    width: 4.7rem;
+    height: 1.4rem;
+    color: #005EEC;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: rmedium;
+
+}
+
+
+.subsub6-sub2-command-setting-div2{
+    width: 11.6rem;
+    height: 2.4rem;
+    background-color: white;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    padding-top: .2rem;
+    margin-right: 1rem;
+    box-shadow: -0.2rem 0.2rem 0.5rem grey;
+    cursor: pointer;
+
+}
+.subsub6-sub2-command-setting-div2 p{
+    width: 7.8rem;
+    height: 1.4rem;
+    color: #005EEC;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: rmedium;
+
+}
+
+
+
+
+.subsub7-sub2-command-setting-div2{
+  width: 11.6rem;
+  height: 2.4rem;
+  background-color: white;
+  border-radius: .5rem;
+  display: flex;
+  justify-content: center;
+  padding-top: .2rem;
+  margin-right: 1rem;
+  box-shadow: -0.2rem 0.2rem 0.5rem grey;
+  cursor: pointer;
+
+}
+.subsub7-sub2-command-setting-div2 p{
+  width: 7.8rem;
+  height: 1.4rem;
+  color: #005EEC;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: rmedium;
+
+}
+
+
+
+
+.subsub8-sub2-command-setting-div2{
+  width: 11.6rem;
+  height: 2.4rem;
+  background-color: white;
+  border-radius: .5rem;
+  display: flex;
+  justify-content: center;
+  padding-top: .2rem;
+  margin-right: 1rem;
+  box-shadow: -0.2rem 0.2rem 0.5rem grey;
+  cursor: pointer;
+
+}
+.subsub8-sub2-command-setting-div2 p{
+  width: 7.8rem;
+  height: 1.4rem;
+  color: #005EEC;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: rmedium;
+
+}
+
+
+
+.subsub9-sub2-command-setting-div2{
+  width: 11.6rem;
+  height: 2.4rem;
+  background-color: white;
+  border-radius: .5rem;
+  display: flex;
+  justify-content: center;
+  padding-top: .2rem;
+  margin-right: 1rem;
+  box-shadow: -0.2rem 0.2rem 0.5rem grey;
+  cursor: pointer;
+
+}
+.subsub9-sub2-command-setting-div2 p{
+  width: 7.8rem;
+  height: 1.4rem;
+  color: #005EEC;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: rmedium;
+
+}
+
+
+
+
+.subsub10-sub2-command-setting-div2{
+  width: 11.6rem;
+  height: 2.4rem;
+  background-color: white;
+  border-radius: .5rem;
+  display: flex;
+  justify-content: center;
+  padding-top: .2rem;
+  margin-right: 1rem;
+  box-shadow: -0.2rem 0.2rem 0.5rem grey;
+  cursor: pointer;
+
+}
+.subsub10-sub2-command-setting-div2 p{
+  width: 7.8rem;
+  height: 1.4rem;
+  color: #005EEC;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: rmedium;
+
+}
+
+
+
+
+.subsub11-sub2-command-setting-div2{
+  width: 11.6rem;
+  height: 2.4rem;
+  background-color: white;
+  border-radius: .5rem;
+  display: flex;
+  justify-content: center;
+  padding-top: .2rem;
+  margin-right: 1rem;
+  box-shadow: -0.2rem 0.2rem 0.5rem grey;
+  cursor: pointer;
+
+}
+.subsub11-sub2-command-setting-div2 p{
+  width: 100%;
+  height: 1.4rem;
+  color: #005EEC;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: rmedium;
+/* background-color: #D01400; */
+}
+/* ////////////////////////////////////// */
+.command-setting-div3{
+    /* background-color: rgb(255, 0, 0); */
+    width: 100%;
+    height: 79.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 1.5rem;
+    /* overflow: auto; */
+}
+
+
+
+
+      /* @media(max-width:1255px){
+      html{
+        font-size: 55%;
+      }
+     
+    
+  
+    } */
+    /* @media(max-width:1240px){
+      html{
+        font-size: 50%;
+      }
+    }
+    
+    @media(max-width:1080px){
+        html{
+          font-size: 45%;
+        }
+      }
+      @media(max-width:998px){
+        html{
+          font-size: 40%;
+        }
+      }
+         */

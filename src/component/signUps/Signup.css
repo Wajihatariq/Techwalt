@@ -1,0 +1,367 @@
+
+@font-face{
+    font-family: rbold;
+    src:url('../../../public/font/Roboto-Bold.ttf')
+  }
+  @font-face{
+    font-family: rregular;
+    src:url('../../../public/font/Roboto-Regular.ttf')
+  }
+  @font-face{
+    font-family: rmedium;
+    src:url('../../../public/font/Roboto-Medium.ttf')
+  }
+  @font-face{
+    font-family: rlight;
+    src:url('../../../public/font/Roboto-Light.ttf')
+  }
+.signup{
+    width: 192rem;
+    height: 93rem;
+    /* background-color: pink; */
+    display: flex;
+}
+.signup-left{
+    width: 116.5rem;
+    height: 93rem;
+    /* background-color: rgb(179, 29, 54); */
+}
+.signup-left img{
+    width: 116.5rem;
+    height: 100%;
+}
+.signup-right{
+    width: 75.5rem;
+    height: 93rem;
+    background-color: #0E0035;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.signup-right img {
+    width: 36.3rem;
+    height:14.2rem;
+}
+
+.sub1-signup-right{
+    width: 67.3rem;
+    height: 69.2rem;
+    /* background-color: #9d96b1; */
+
+}
+.subsub1-sub1-signup-right{
+    width: 67.3rem;
+    height: 59.4rem;
+    background-color: rgb(178, 178, 178,7%);
+    border-radius: 5.6rem;
+    display: flex;
+    flex-direction:column ;
+    /* justify-content: end; */
+    align-items: center;
+}
+.subsub1-sub1-signup-right :nth-child(1){
+    width: 20.6rem;
+    height: 7.5rem;
+    font-size: 6.4rem;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 5rem;
+    /* background-color: aqua; */
+}
+.subsub1-sub1-signup-right :nth-child(2){
+    width: 27.1rem;
+    height:3rem;
+    background-color: rgb(255, 255, 255,0%);
+    margin-bottom: 5rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: .1rem solid white;
+}
+.sub1-subsub1-sub1-signup-right{
+display: flex;
+}
+.sub1-subsub1-sub1-signup-right :nth-child(1){
+width: 2.5rem;
+height: 2.5rem;
+/* background-color: blanchedalmond; */
+margin-right: 1rem;
+}
+.sub1-subsub1-sub1-signup-right :nth-child(2){
+    width: 23rem;
+    height:3rem;
+    font-size: 2.4rem;
+    background-color: rgb(255, 255, 255,0%);
+    color: white;
+    font-family: rlight;
+    text-align: center;
+    border: 0;
+    outline: none;
+}
+.sub1-subsub1-sub1-signup-right :nth-child(2)::placeholder{
+    color: white;
+
+}
+
+/*  */
+.subsub1-sub1-signup-right :nth-child(3){
+    width: 27.1rem;
+    height:3rem;
+    background-color: rgb(255, 255, 255,0%);
+    margin-bottom: 5rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: .1rem solid white;
+}
+.sub2-subsub1-sub1-signup-right{
+display: flex;
+}
+.sub2-subsub1-sub1-signup-right :nth-child(1){
+width: 2.5rem;
+height: 2.5rem;
+/* background-color: blanchedalmond; */
+margin-right: 1rem;
+}
+.sub2-subsub1-sub1-signup-right :nth-child(2){
+    width: 21.6rem;
+    height:3rem;
+    font-size: 2.4rem;
+    background-color: rgb(255, 255, 255,0%);
+    color: white;
+    font-family: rlight;
+    text-align: center;
+    border: 0;
+    outline: none;
+}
+.sub2-subsub1-sub1-signup-right :nth-child(2)::placeholder{
+    color: white;
+
+}
+/* ///////////////////////////////////////////////// */
+/* check box */
+
+
+.sub2-subsub1-sub1-signup-right input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance:none ;
+    height: 1.5rem;
+    width: 1.5rem;
+  background-color:rgb(255, 255, 255,0%) ;
+  border-radius: 5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: .4rem;
+  /* outline: none; */
+  border:.1rem solid white;
+  }
+  
+  
+  .sub2-subsub1-sub1-signup-right input[type="checkbox"]:after{
+    font-family: "Font Awesome 6 Free";
+  content: "\f00c";
+  font-size: 1.3rem;
+  color:#0E0035;
+  display: none;
+  font-weight: 1000;
+  padding-top: .3rem;
+  }
+  .sub2-subsub1-sub1-signup-right input[type="checkbox"]:checked{
+    background-color: white ;
+  }
+  .sub2-subsub1-sub1-signup-right input[type="checkbox"]:checked::after{
+  display: block;
+  }
+  
+  /* ///////////////////////////////////////////////// */
+/*  */
+.subsub1-sub1-signup-right :nth-child(4){
+    width: 27.1rem;
+    height:3rem;
+    background-color: rgb(255, 255, 255,0%);
+    margin-bottom: 5rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: .1rem solid white;
+}
+.sub3-subsub1-sub1-signup-right{
+display: flex;
+}
+.sub3-subsub1-sub1-signup-right :nth-child(1){
+width: 2.5rem;
+height: 2.5rem;
+/* background-color: blanchedalmond; */
+margin-right: 1rem;
+}
+.sub3-subsub1-sub1-signup-right :nth-child(2){
+    width: 23rem;
+    height:3rem;
+    font-size: 2.4rem;
+    background-color: rgb(255, 255, 255,0%);
+    color: white;
+    font-family: rlight;
+    text-align: center;
+    border: 0;
+    outline: none;
+}
+.sub3-subsub1-sub1-signup-right :nth-child(2)::placeholder{
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.subsub1-sub1-signup-right :nth-child(5){
+    width: 27.1rem;
+    height:3rem;
+    background-color: rgb(255, 255, 255,0%);
+    margin-bottom: 5rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: .1rem solid white;
+}
+.sub4-subsub1-sub1-signup-right{
+    display: flex;
+    }
+    .sub4-subsub1-sub1-signup-right :nth-child(1){
+    width: 2.5rem;
+    height: 3.3rem;
+    margin-right: 1rem;
+    margin-top: -.9rem;
+    }
+.sub4-subsub1-sub1-signup-right :nth-child(2){
+    width: 23rem;
+    height:3rem;
+    font-size: 2.4rem;
+    background-color: rgb(255, 255, 255,0%);
+    color: white;
+    font-family: rlight;
+    text-align: center;
+    border: 0;
+    outline: none;
+}
+.sub4-subsub1-sub1-signup-right :nth-child(2)::placeholder{
+    color: white;
+
+}
+/*  */
+.subsub1-sub1-signup-right :nth-child(6){
+    width: 27.1rem;
+    height:3rem;
+    background-color: rgb(255, 255, 255,0%);
+    margin-bottom: 2rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: .1rem solid white;
+}
+.sub5-subsub1-sub1-signup-right{
+    display: flex;
+    }
+    .sub5-subsub1-sub1-signup-right :nth-child(1){
+    width: 2.5rem;
+    height: 3.3rem;
+    margin-right: 1rem;
+    margin-top: -.9rem;
+    }
+.sub5-subsub1-sub1-signup-right :nth-child(2){
+    width: 23rem;
+    height:3rem;
+    font-size: 2.4rem;
+    background-color: rgb(255, 255, 255,0%);
+    color: white;
+    font-family: rlight;
+    text-align: center;
+    border: 0;
+    outline: none;
+}
+.sub5-subsub1-sub1-signup-right :nth-child(2)::placeholder{
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.subsub1-sub1-signup-right :nth-child(7){
+    width: 18.5rem;
+    height:4.3rem;
+    font-size: 2.4rem;
+    background-color: rgb(255, 255, 255,81%);
+    color: black;
+    text-align: center;
+    border: 0;
+    border-radius: 1.9rem;
+    font-weight: 700;
+margin-bottom: 2rem;
+padding-top: -1rem;
+}
+.subsub1-sub1-signup-right :nth-child(8){
+    width: 27rem;
+    height:2.5rem;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+/* margin-bottom: 4rem; */
+/* border-bottom: .1rem solid white; */
+padding-bottom: 1rem;
+}
+/* //////////////////////////////// */
+.subsub2-sub1-signup-right{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    /* align-items: center; */
+}
